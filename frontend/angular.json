@@ -52,7 +52,7 @@
               "slugify"
             ],
             "assets": [
-              "src/app/assets",
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "./node_modules/tui-code-snippet/dist/",
@@ -94,7 +94,7 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
-                "./src/app/theme"
+                "./src/assets/theme"
               ]
             },
             "scripts": []

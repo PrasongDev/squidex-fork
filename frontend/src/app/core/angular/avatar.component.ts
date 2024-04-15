@@ -8,7 +8,7 @@
 import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input, numberAttribute } from '@angular/core';
 import { picasso, TypedSimpleChanges } from '@app/core/internal';
-import { SafeUrlPipe } from './safe-html.pipe';
+import { SafeUrlPipe } from '../pipes/safe-html.pipe';
 
 @Component({
     standalone: true,

@@ -13,7 +13,7 @@ import { DialogModel, DialogRequest, DialogService, fadeAnimation, Notification,
 import { FocusOnInitDirective } from '../../directive/forms/focus-on-init.directive';
 import { MarkdownPipe } from '../../pipes/markdown.pipe';
 import { TranslatePipe } from '../../pipes/translate.pipe';
-import { SafeHtmlPipe } from '../safe-html.pipe';
+import { SafeHtmlPipe } from '../../pipes/safe-html.pipe';
 import { ModalDialogComponent } from './modal-dialog.component';
 import { ModalPlacementDirective } from '../../directive/modals/modal-placement.directive';
 import { ModalDirective } from '../../directive/modals/modal.directive';

@@ -10,7 +10,7 @@ import { booleanAttribute, ChangeDetectionStrategy, Component, Input } from '@an
 import { ErrorDto, TypedSimpleChanges } from '@app/core/internal';
 import { MarkdownPipe } from '../../pipes/markdown.pipe';
 import { TranslatePipe } from '../../pipes/translate.pipe';
-import { SafeHtmlPipe } from '../safe-html.pipe';
+import { SafeHtmlPipe } from '../../pipes/safe-html.pipe';
 
 @Component({
     standalone: true,

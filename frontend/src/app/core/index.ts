@@ -50,19 +50,9 @@ export * from './angular/modals/root-view.component';
 export * from './angular/modals/tour-template.component';
 export * from './angular/modals/tour.service';
 export * from './angular/pager.component';
-export * from './pipes/colors.pipes';
-export * from './pipes/date-time.pipes';
-export * from './pipes/highlight.pipe';
-export * from './pipes/keys.pipe';
-export * from './pipes/markdown.pipe';
-export * from './pipes/name.pipe';
-export * from './pipes/numbers.pipes';
-export * from './pipes/strings.pipes';
-export * from './pipes/translate.pipe';
 export * from './routers/can-deactivate.guard';
 export * from './routers/parent-link.directive';
 export * from './routers/router-2-state';
-export * from './angular/safe-html.pipe';
 export * from './angular/shortcut.component';
 export * from './angular/status-icon.component';
 export * from './angular/title.component';
@@ -71,6 +61,17 @@ export * from './angular/video-player.component';
 export * from './internal';
 export * from './state';
 
+/* ============================== PIPE ============================== */
+export * from './pipes/colors.pipes';
+export * from './pipes/date-time.pipes';
+export * from './pipes/highlight.pipe';
+export * from './pipes/keys.pipe';
+export * from './pipes/markdown.pipe';
+export * from './pipes/name.pipe';
+export * from './pipes/numbers.pipes';
+export * from './pipes/strings.pipes';
+export * from './pipes/safe-html.pipe';
+export * from './pipes/translate.pipe';
 
 /* ============================== DIRECTIVE ============================== */
 export * from './directive/common/compensate-scrollbar.directive';

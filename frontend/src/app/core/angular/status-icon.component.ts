@@ -7,7 +7,7 @@
 
 import { NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { TooltipDirective } from './modals/tooltip.directive';
+import { TooltipDirective } from '../directive/modals/tooltip.directive';
 
 @Component({
     standalone: true,

@@ -8,11 +8,11 @@
 import { NgIf } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { fadeAnimation, StatefulComponent } from '@app/core/internal';
-import { MarkdownInlinePipe, MarkdownPipe } from '../pipes/markdown.pipe';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { MarkdownInlinePipe, MarkdownPipe } from '../../pipes/markdown.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { SafeHtmlPipe } from '../safe-html.pipe';
-import { ModalPlacementDirective } from './modal-placement.directive';
-import { ModalDirective } from './modal.directive';
+import { ModalPlacementDirective } from '../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../directive/modals/modal.directive';
 import { StepDefinition, TourService } from './tour.service';
 
 @Component({

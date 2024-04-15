@@ -9,9 +9,9 @@ import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, numberAttribute, OnInit, Output } from '@angular/core';
 import { FloatingPlacement, ModalModel } from '@app/core/internal';
 import { DropdownMenuComponent } from './dropdown-menu.component';
-import { ModalPlacementDirective } from './modals/modal-placement.directive';
-import { ModalDirective } from './modals/modal.directive';
-import { TooltipDirective } from './modals/tooltip.directive';
+import { ModalPlacementDirective } from '../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../directive/modals/modal.directive';
+import { TooltipDirective } from '../directive/modals/tooltip.directive';
 
 export interface Language { iso2Code: string; englishName: string; isMasterLanguage?: boolean }
 

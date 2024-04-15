@@ -10,8 +10,8 @@ import { booleanAttribute, ChangeDetectionStrategy, Component, forwardRef, Input
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { ColorPickerModule } from 'ngx-color-picker';
 import { MathHelper, ModalModel, StatefulControlComponent } from '@app/core/internal';
-import { ModalPlacementDirective } from '../../modals/modal-placement.directive';
-import { ModalDirective } from '../../modals/modal.directive';
+import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../../directive/modals/modal.directive';
 import { FocusComponent } from '../forms-helper';
 
 export const SQX_COLOR_PICKER_CONTROL_VALUE_ACCESSOR: any = {

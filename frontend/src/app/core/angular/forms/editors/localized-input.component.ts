@@ -10,7 +10,7 @@ import { booleanAttribute, ChangeDetectionStrategy, Component, forwardRef, Input
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { ModalModel, StatefulControlComponent, Types } from '@app/core/internal';
 import { Language, LanguageSelectorComponent } from '../../language-selector.component';
-import { IndeterminateValueDirective } from '../indeterminate-value.directive';
+import { IndeterminateValueDirective } from '../../../directive/forms/indeterminate-value.directive';
 import { DateTimeEditorComponent } from './date-time-editor.component';
 import { TagEditorComponent } from './tag-editor.component';
 

@@ -8,7 +8,7 @@
 /* eslint-disable @angular-eslint/no-input-rename */
 
 import { AfterViewInit, booleanAttribute, Directive, ElementRef, Input, numberAttribute, Renderer2 } from '@angular/core';
-import { TypedSimpleChanges, Types } from '../internal';
+import { TypedSimpleChanges, Types } from '../../internal';
 
 @Directive({
     selector: '[sqxScrollActive]',

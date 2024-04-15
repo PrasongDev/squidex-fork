@@ -9,7 +9,7 @@ import { NgFor } from '@angular/common';
 import { AfterViewChecked, AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, forwardRef, Input, ViewChild } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { getTagValues, MathHelper, StatefulControlComponent, TagValue, TextMeasurer } from '@app/core/internal';
-import { ResizedDirective } from '../../resized.directive';
+import { ResizedDirective } from '../../../directive/common/resized.directive';
 
 export const SQX_RADIO_GROUP_CONTROL_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => RadioGroupComponent), multi: true,

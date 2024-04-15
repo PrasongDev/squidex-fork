@@ -10,9 +10,9 @@ import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, El
 import { FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, UntypedFormControl } from '@angular/forms';
 import Pikaday from 'pikaday/pikaday';
 import { DateHelper, DateTime, StatefulControlComponent, Subscriptions, UIOptions } from '@app/core/internal';
-import { TooltipDirective } from '../../modals/tooltip.directive';
-import { TranslatePipe } from '../../pipes/translate.pipe';
-import { ResizedDirective } from '../../resized.directive';
+import { TooltipDirective } from '../../../directive/modals/tooltip.directive';
+import { TranslatePipe } from '../../../pipes/translate.pipe';
+import { ResizedDirective } from '../../../directive/common/resized.directive';
 import { FocusComponent } from '../forms-helper';
 
 declare module 'pikaday/pikaday';

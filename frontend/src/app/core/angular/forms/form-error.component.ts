@@ -8,8 +8,8 @@
 import { NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { ErrorDto, TypedSimpleChanges } from '@app/core/internal';
-import { MarkdownPipe } from '../pipes/markdown.pipe';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { MarkdownPipe } from '../../pipes/markdown.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { SafeHtmlPipe } from '../safe-html.pipe';
 
 @Component({

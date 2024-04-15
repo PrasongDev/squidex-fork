@@ -10,14 +10,14 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { timer } from 'rxjs';
 import { DialogModel, DialogRequest, DialogService, fadeAnimation, Notification, StatefulComponent, Subscriptions, Tooltip } from '@app/core/internal';
-import { FocusOnInitDirective } from '../forms/focus-on-init.directive';
-import { MarkdownPipe } from '../pipes/markdown.pipe';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { FocusOnInitDirective } from '../../directive/forms/focus-on-init.directive';
+import { MarkdownPipe } from '../../pipes/markdown.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { SafeHtmlPipe } from '../safe-html.pipe';
 import { ModalDialogComponent } from './modal-dialog.component';
-import { ModalPlacementDirective } from './modal-placement.directive';
-import { ModalDirective } from './modal.directive';
-import { TooltipDirective } from './tooltip.directive';
+import { ModalPlacementDirective } from '../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../directive/modals/modal.directive';
+import { TooltipDirective } from '../../directive/modals/tooltip.directive';
 
 interface State {
     // The pending dialog request.

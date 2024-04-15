@@ -12,12 +12,12 @@ import { distinctUntilChanged, map, tap } from 'rxjs/operators';
 import { getTagValues, Keys, ModalModel, StatefulControlComponent, StringConverter, Subscriptions, TagValue, TextMeasurer, TypedSimpleChanges, Types } from '@app/core/internal';
 import { DropdownMenuComponent } from '../../dropdown-menu.component';
 import { LoaderComponent } from '../../loader.component';
-import { ModalPlacementDirective } from '../../modals/modal-placement.directive';
-import { ModalDirective } from '../../modals/modal.directive';
-import { TooltipDirective } from '../../modals/tooltip.directive';
-import { TranslatePipe } from '../../pipes/translate.pipe';
-import { ScrollActiveDirective } from '../../scroll-active.directive';
-import { StopClickDirective } from '../../stop-click.directive';
+import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../../directive/modals/modal.directive';
+import { TooltipDirective } from '../../../directive/modals/tooltip.directive';
+import { TranslatePipe } from '../../../pipes/translate.pipe';
+import { ScrollActiveDirective } from '../../../directive/common/scroll-active.directive';
+import { StopClickDirective } from '../../../directive/common/stop-click.directive';
 
 export const SQX_TAG_EDITOR_CONTROL_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => TagEditorComponent), multi: true,

@@ -13,12 +13,12 @@ import { catchError, debounceTime, finalize, map, switchMap, tap } from 'rxjs/op
 import { FloatingPlacement, Keys, ModalModel, StatefulControlComponent, Subscriptions, Types } from '@app/core/internal';
 import { DropdownMenuComponent } from '../../dropdown-menu.component';
 import { LoaderComponent } from '../../loader.component';
-import { ModalPlacementDirective } from '../../modals/modal-placement.directive';
-import { ModalDirective } from '../../modals/modal.directive';
-import { ScrollActiveDirective } from '../../scroll-active.directive';
-import { StopClickDirective } from '../../stop-click.directive';
-import { TemplateWrapperDirective } from '../../template-wrapper.directive';
-import { FocusOnInitDirective } from '../focus-on-init.directive';
+import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../../directive/modals/modal.directive';
+import { ScrollActiveDirective } from '../../../directive/common/scroll-active.directive';
+import { StopClickDirective } from '../../../directive/common/stop-click.directive';
+import { TemplateWrapperDirective } from '../../../directive/common/template-wrapper.directive';
+import { FocusOnInitDirective } from '../../../directive/forms/focus-on-init.directive';
 
 export interface AutocompleteSource {
     find(query: string): Observable<ReadonlyArray<any>>;

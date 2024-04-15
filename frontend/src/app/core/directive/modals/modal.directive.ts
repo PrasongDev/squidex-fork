@@ -9,7 +9,7 @@
 
 import { booleanAttribute, ChangeDetectorRef, Directive, EmbeddedViewRef, Input, OnDestroy, Renderer2, RendererFactory2, TemplateRef, ViewContainerRef } from '@angular/core';
 import { DialogModel, ModalModel, Subscriptions, Types } from '@app/core/internal';
-import { RootViewComponent } from './root-view.component';
+import { RootViewComponent } from '../../angular/modals/root-view.component';
 
 declare type Model = DialogModel | ModalModel | any;
 

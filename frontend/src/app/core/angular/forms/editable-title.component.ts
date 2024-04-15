@@ -9,9 +9,9 @@ import { NgIf } from '@angular/common';
 import { booleanAttribute, Component, EventEmitter, Input, numberAttribute, Output } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule, ValidatorFn, Validators } from '@angular/forms';
 import { Keys } from '@app/core/internal';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { ControlErrorsComponent } from './control-errors.component';
-import { FocusOnInitDirective } from './focus-on-init.directive';
+import { FocusOnInitDirective } from '../../directive/forms/focus-on-init.directive';
 
 @Component({
     standalone: true,

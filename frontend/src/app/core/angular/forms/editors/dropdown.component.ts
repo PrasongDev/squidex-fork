@@ -12,12 +12,12 @@ import { map } from 'rxjs/operators';
 import { FloatingPlacement, Keys, ModalModel, StatefulControlComponent, Subscriptions, TypedSimpleChanges, Types } from '@app/core/internal';
 import { DropdownMenuComponent } from '../../dropdown-menu.component';
 import { LoaderComponent } from '../../loader.component';
-import { ModalPlacementDirective } from '../../modals/modal-placement.directive';
-import { ModalDirective } from '../../modals/modal.directive';
-import { TranslatePipe } from '../../pipes/translate.pipe';
-import { ScrollActiveDirective } from '../../scroll-active.directive';
-import { TemplateWrapperDirective } from '../../template-wrapper.directive';
-import { FocusOnInitDirective } from '../focus-on-init.directive';
+import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
+import { ModalDirective } from '../../../directive/modals/modal.directive';
+import { TranslatePipe } from '../../../pipes/translate.pipe';
+import { ScrollActiveDirective } from '../../../directive/common/scroll-active.directive';
+import { TemplateWrapperDirective } from '../../../directive/common/template-wrapper.directive';
+import { FocusOnInitDirective } from '../../../directive/forms/focus-on-init.directive';
 
 export const SQX_DROPDOWN_CONTROL_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => DropdownComponent), multi: true,

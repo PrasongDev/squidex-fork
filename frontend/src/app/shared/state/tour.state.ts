@@ -7,7 +7,7 @@
 
 import { inject, Inject, Injectable } from '@angular/core';
 import { filter, skip, take } from 'rxjs';
-import { debug, State, TourService, UIOptions } from '@app/framework';
+import { debug, State, TourService, UIOptions } from '@app/core';
 import { TASK_CONFIGURATION, TaskConfiguration, TaskDefinition } from './tour.tasks';
 import { UIState } from './ui.state';
 

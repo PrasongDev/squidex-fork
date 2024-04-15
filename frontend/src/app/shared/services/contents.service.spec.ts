@@ -7,7 +7,7 @@
 
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { inject, TestBed } from '@angular/core/testing';
-import { ErrorDto } from '@app/framework';
+import { ErrorDto } from '@app/core';
 import { ApiUrlConfig, ContentDto, ContentsDto, ContentsService, DateTime, Resource, ResourceLinks, ScheduleDto, Version, Versioned } from '@app/shared/internal';
 import { BulkResultDto, BulkUpdateDto } from './contents.service';
 import { sanitize } from './query';

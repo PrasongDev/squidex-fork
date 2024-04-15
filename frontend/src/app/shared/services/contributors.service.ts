@@ -8,7 +8,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiUrlConfig, HTTP, mapVersioned, pretifyError, Resource, Version } from '@app/framework';
+import { ApiUrlConfig, HTTP, mapVersioned, pretifyError, Resource, Version } from '@app/core';
 import { AssignContributorDto, ContributorsDto, parseContributors } from './shared';
 
 export * from './shared';

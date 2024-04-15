@@ -7,7 +7,7 @@
 
 import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { ScrollActiveDirective, TranslatePipe } from '@app/framework';
+import { ScrollActiveDirective, TranslatePipe } from '@app/core';
 import { fadeAnimation, StatefulComponent, Subscriptions, TaskSnapshot, TourService, TourState } from '@app/shared/internal';
 
 interface State {

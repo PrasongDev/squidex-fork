@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { finalize, tap } from 'rxjs/operators';
-import { debug, DialogService, LoadingState, shareSubscribed, State, Version } from '@app/framework';
+import { debug, DialogService, LoadingState, shareSubscribed, State, Version } from '@app/core';
 import { PlanDto, PlanLockedReason, PlansService, ReferralDto } from '../services/plans.service';
 import { AppsState } from './apps.state';
 

@@ -8,7 +8,7 @@
 import { AsyncPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListViewComponent, ModalDialogComponent, PagerComponent, TagEditorComponent, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ListViewComponent, ModalDialogComponent, PagerComponent, TagEditorComponent, TooltipDirective, TranslatePipe } from '@app/core';
 import { AssetDto, ComponentAssetsState, LocalStoreService, Query, Settings, StatefulComponent } from '@app/shared/internal';
 import { SearchFormComponent } from '../search/search-form.component';
 import { AssetsListComponent } from './assets-list.component';

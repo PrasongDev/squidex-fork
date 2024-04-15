@@ -5,7 +5,7 @@
  * Copyright (c) Squidex UG (haftungsbeschränkt). All rights reserved.
  */
 
-import { hasAnyLink, Resource, ResourceLinks, Versioned } from '@app/framework';
+import { hasAnyLink, Resource, ResourceLinks, Versioned } from '@app/core';
 
 export class ContributorDto {
     public readonly _links: ResourceLinks;

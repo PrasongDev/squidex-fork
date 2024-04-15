@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { FileSizePipe, TranslatePipe } from '@app/framework';
+import { FileSizePipe, TranslatePipe } from '@app/core';
 import { CurrentStorageDto } from '@app/shared/internal';
 
 @Component({

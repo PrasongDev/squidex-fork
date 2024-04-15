@@ -8,7 +8,7 @@
 import { AsyncPipe, NgFor, NgIf, NgSwitch, NgSwitchCase } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DateTimeEditorComponent, DropdownComponent, HighlightPipe, TranslatePipe } from '@app/framework';
+import { DateTimeEditorComponent, DropdownComponent, HighlightPipe, TranslatePipe } from '@app/core';
 import { ContributorsState, FilterableField, FilterComparison, FilterFieldUI, getFilterUI, LanguageDto, QueryModel, StatusInfo } from '@app/shared/internal';
 import { UserDtoPicture } from '../../pipes';
 import { ReferenceInputComponent } from '../../references/reference-input.component';

@@ -7,7 +7,7 @@
 
 import { Injectable, OnDestroy } from '@angular/core';
 import { BehaviorSubject, combineLatest, distinctUntilChanged, map, Observable, of, Subscription, switchMap } from 'rxjs';
-import { DateTime, MathHelper, Types } from '@app/framework';
+import { DateTime, MathHelper, Types } from '@app/core';
 import { CollaborationService, SharedArray } from '../services/collaboration.service';
 
 export interface Comment {

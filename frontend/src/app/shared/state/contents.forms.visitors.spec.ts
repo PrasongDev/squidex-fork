@@ -5,7 +5,7 @@
  * Copyright (c) Squidex UG (haftungsbeschränkt). All rights reserved.
  */
 
-import { DateHelper } from '@app/framework';
+import { DateHelper } from '@app/core';
 import { createProperties, DateTime, FieldDefaultValue, FieldFormatter, FieldsValidators, HtmlValue } from '@app/shared/internal';
 import { TestValues } from './_test-helpers';
 

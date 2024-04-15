@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom, from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, escapeHTML, pretifyError, Version } from '@app/framework';
+import { ApiUrlConfig, DateTime, escapeHTML, pretifyError, Version } from '@app/core';
 import { UsersProviderService } from './users-provider.service';
 
 export class HistoryEventDto {

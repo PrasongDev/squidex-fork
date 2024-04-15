@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/no-implied-eval */
 /* eslint-disable no-useless-return */
 
-import { Types } from '@app/framework';
+import { Types } from '@app/core';
 import { FieldRule, SchemaDto } from '../services/schemas.service';
 
 export type RuleContext = { data: any; user?: any };

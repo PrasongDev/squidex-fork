@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, hasAnyLink, HTTP, pretifyError, Resource, ResourceLinks, ScriptCompletions, StringHelper, Types, Version, Versioned } from '@app/framework';
+import { ApiUrlConfig, DateTime, hasAnyLink, HTTP, pretifyError, Resource, ResourceLinks, ScriptCompletions, StringHelper, Types, Version, Versioned } from '@app/core';
 import { QueryModel } from './query';
 import { createProperties, FieldPropertiesDto } from './schemas.types';
 

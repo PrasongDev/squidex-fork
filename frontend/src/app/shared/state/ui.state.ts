@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { combineLatest } from 'rxjs';
 import { distinctUntilChanged, filter, map, tap } from 'rxjs/operators';
-import { debug, hasAnyLink, shareSubscribed, State, Types } from '@app/framework';
+import { debug, hasAnyLink, shareSubscribed, State, Types } from '@app/core';
 import { UIService } from '../services/ui.service';
 import { UsersService } from '../services/users.service';
 

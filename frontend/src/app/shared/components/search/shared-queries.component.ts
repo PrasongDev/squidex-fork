@@ -7,7 +7,7 @@
 
 import { AsyncPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { Queries, Query } from '@app/shared/internal';
 import { QueryListComponent } from './query-list.component';
 

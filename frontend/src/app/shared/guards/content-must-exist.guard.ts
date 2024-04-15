@@ -8,7 +8,7 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Router } from '@angular/router';
 import { map, tap } from 'rxjs/operators';
-import { allParams } from '@app/framework';
+import { allParams } from '@app/core';
 import { ContentsState } from '@app/shared/internal';
 
 export const contentMustExistGuard = (route: ActivatedRouteSnapshot) => {

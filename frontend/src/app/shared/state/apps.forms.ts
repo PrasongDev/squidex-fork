@@ -8,7 +8,7 @@
 /* eslint-disable no-useless-escape */
 
 import { UntypedFormControl, Validators } from '@angular/forms';
-import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx } from '@app/framework';
+import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx } from '@app/core';
 import { AppDto, AppSettingsDto, CreateAppDto, TransferToTeamDto, UpdateAppDto, UpdateAppSettingsDto } from '../services/apps.service';
 
 export class CreateAppForm extends Form<ExtendedFormGroup, CreateAppDto> {

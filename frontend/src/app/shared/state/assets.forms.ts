@@ -7,7 +7,7 @@
 
 import { UntypedFormControl, Validators } from '@angular/forms';
 import slugify from 'slugify';
-import { ExtendedFormGroup, Form, Mutable, TemplatedFormArray, Types } from '@app/framework';
+import { ExtendedFormGroup, Form, Mutable, TemplatedFormArray, Types } from '@app/core';
 import { AnnotateAssetDto, AssetDto, AssetFolderDto, MoveAssetItemDto, RenameAssetFolderDto, RenameAssetTagDto } from '../services/assets.service';
 
 export class AnnotateAssetForm extends Form<ExtendedFormGroup, AnnotateAssetDto, AssetDto> {

@@ -10,7 +10,7 @@ import { booleanAttribute, ChangeDetectionStrategy, Component, Input } from '@an
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { MentionConfig, MentionModule } from 'angular-mentions';
-import { bounceAnimation, ConfirmClickDirective, FocusOnInitDirective, FromNowPipe, MarkdownPipe, SafeHtmlPipe, ScrollActiveDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { bounceAnimation, ConfirmClickDirective, FocusOnInitDirective, FromNowPipe, MarkdownPipe, SafeHtmlPipe, ScrollActiveDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { CommentItem, CommentsState, ContributorDto, DialogService, Keys, StatefulComponent, UpsertCommentForm } from '@app/shared/internal';
 import { UserNameRefPipe, UserPictureRefPipe } from '../pipes';
 

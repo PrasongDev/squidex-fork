@@ -7,7 +7,7 @@
 
 import { Injectable } from '@angular/core';
 import { Observable, shareReplay, Subject, takeUntil } from 'rxjs';
-import { debug, DialogService, MathHelper, State, Types } from '@app/framework';
+import { debug, DialogService, MathHelper, State, Types } from '@app/core';
 import { AssetDto, AssetsService } from '../services/assets.service';
 import { AppsState } from './apps.state';
 

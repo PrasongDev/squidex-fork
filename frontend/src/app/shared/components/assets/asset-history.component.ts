@@ -9,7 +9,7 @@ import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ExternalLinkDirective, FromNowPipe, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ExternalLinkDirective, FromNowPipe, TooltipDirective, TranslatePipe } from '@app/core';
 import { AppsState, AssetDto, HistoryEventDto, HistoryService } from '@app/shared/internal';
 import { HistoryMessagePipe } from '../history/pipes';
 import { UserNameRefPipe, UserPictureRefPipe } from '../pipes';

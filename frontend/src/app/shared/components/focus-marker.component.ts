@@ -8,7 +8,7 @@
 import { AsyncPipe, NgIf } from '@angular/common';
 import { Component, Input, Optional, Renderer2 } from '@angular/core';
 import { map } from 'rxjs';
-import { StringColorPipe } from '@app/framework';
+import { StringColorPipe } from '@app/core';
 import { CollaborationService, Subscriptions } from '@app/shared/internal';
 
 @Component({

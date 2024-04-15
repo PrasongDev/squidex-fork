@@ -8,7 +8,7 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Router } from '@angular/router';
 import { map, tap } from 'rxjs/operators';
-import { allParams } from '@app/framework';
+import { allParams } from '@app/core';
 import { SchemasState } from '../state/schemas.state';
 
 export const schemaMustExistPublishedGuard = (route: ActivatedRouteSnapshot) => {

@@ -7,7 +7,7 @@
 
 import { inject, Injectable } from '@angular/core';
 import { from, Observable, of, shareReplay } from 'rxjs';
-import { UIOptions } from '@app/framework';
+import { UIOptions } from '@app/core';
 import { AssetDto, AssetsDto, AssetsService } from '../services/assets.service';
 import { ContentDto, ContentsDto, ContentsService } from '../services/contents.service';
 import { AppsState } from './apps.state';

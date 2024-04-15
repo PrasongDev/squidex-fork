@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { finalize, tap } from 'rxjs/operators';
-import { debug, DialogService, LoadingState, shareSubscribed, State } from '@app/framework';
+import { debug, DialogService, LoadingState, shareSubscribed, State } from '@app/core';
 import { TemplateDto, TemplatesService } from '../services/templates.service';
 
 interface Snapshot extends LoadingState {

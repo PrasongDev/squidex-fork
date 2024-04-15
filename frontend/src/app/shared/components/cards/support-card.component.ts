@@ -6,7 +6,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { ExternalLinkDirective, TranslatePipe } from '@app/framework';
+import { ExternalLinkDirective, TranslatePipe } from '@app/core';
 
 @Component({
     standalone: true,

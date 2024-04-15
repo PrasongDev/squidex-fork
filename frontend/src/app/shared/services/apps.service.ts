@@ -9,7 +9,7 @@ import { HttpClient, HttpErrorResponse, HttpEventType, HttpResponse } from '@ang
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError, filter, map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, ErrorDto, getLinkUrl, hasAnyLink, HTTP, mapVersioned, pretifyError, Resource, ResourceLinks, StringHelper, Types, Version, Versioned } from '@app/framework';
+import { ApiUrlConfig, DateTime, ErrorDto, getLinkUrl, hasAnyLink, HTTP, mapVersioned, pretifyError, Resource, ResourceLinks, StringHelper, Types, Version, Versioned } from '@app/core';
 
 export class AppDto {
     public readonly _links: ResourceLinks;

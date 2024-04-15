@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, pretifyError } from '@app/framework';
+import { ApiUrlConfig, DateTime, pretifyError } from '@app/core';
 
 export class CallsUsageDto {
     constructor(

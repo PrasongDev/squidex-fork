@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
 import { AbstractControl, UntypedFormArray } from '@angular/forms';
-import { MathHelper } from '@app/framework';
+import { MathHelper } from '@app/core';
 import { AppLanguageDto, createProperties, EditContentForm, getContentValue, HtmlValue, LanguageDto, RootFieldDto } from '@app/shared/internal';
 import { FieldRule, SchemaDto } from '../services/schemas.service';
 import { TestValues } from './_test-helpers';

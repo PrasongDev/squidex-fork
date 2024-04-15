@@ -7,7 +7,7 @@
 
 import { NgFor } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { LanguageDto, Query, QueryModel, StatusInfo } from '@app/shared/internal';
 import { FilterLogicalComponent } from './filter-logical.component';
 import { SortingComponent } from './sorting.component';

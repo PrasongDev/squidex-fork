@@ -8,7 +8,7 @@
 import { HttpClient } from '@angular/common/http';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CodeEditorComponent } from '@app/framework';
+import { CodeEditorComponent } from '@app/core';
 
 @Component({
     standalone: true,

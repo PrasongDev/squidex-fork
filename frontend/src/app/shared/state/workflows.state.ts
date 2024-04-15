@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { finalize, tap } from 'rxjs/operators';
-import { debug, DialogService, LoadingState, shareSubscribed, State, Version } from '@app/framework';
+import { debug, DialogService, LoadingState, shareSubscribed, State, Version } from '@app/core';
 import { WorkflowDto, WorkflowsPayload, WorkflowsService } from '../services/workflows.service';
 import { AppsState } from './apps.state';
 

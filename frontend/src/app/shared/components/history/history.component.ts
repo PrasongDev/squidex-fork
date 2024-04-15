@@ -10,7 +10,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { merge, Observable, timer } from 'rxjs';
 import { delay } from 'rxjs/operators';
-import { LayoutComponent } from '@app/framework';
+import { LayoutComponent } from '@app/core';
 import { allParams, AppsState, HistoryChannelUpdated, HistoryEventDto, HistoryService, MessageBus, SchemasState, switchSafe, TeamsState } from '@app/shared/internal';
 import { HistoryListComponent } from './history-list.component';
 

@@ -8,7 +8,7 @@
 import { NgIf } from '@angular/common';
 import { booleanAttribute, Component, forwardRef, Input } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { ModalDirective, ModalModel, ModalPlacementDirective, StatefulControlComponent, TranslatePipe, Types } from '@app/framework';
+import { ModalDirective, ModalModel, ModalPlacementDirective, StatefulControlComponent, TranslatePipe, Types } from '@app/core';
 import { AppsState, AssetsService, ROOT_ITEM } from '@app/shared/internal';
 import { AssetFolderDropdownItemComponent } from './asset-folder-dropdown-item.component';
 import { AssetFolderDropdowNode } from './asset-folder-dropdown.state';

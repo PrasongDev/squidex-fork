@@ -7,7 +7,7 @@
 
 import { NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { FromNowPipe, TooltipDirective } from '@app/framework';
+import { FromNowPipe, TooltipDirective } from '@app/core';
 import { HistoryEventDto } from '@app/shared/internal';
 import { UserNameRefPipe, UserPictureRefPipe } from '../pipes';
 import { HistoryMessagePipe } from './pipes';

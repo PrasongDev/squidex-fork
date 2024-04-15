@@ -9,7 +9,7 @@ import { CdkDrag, CdkDragDrop, CdkDragHandle, CdkDragStart, CdkDropList } from '
 import { NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { EditableTitleComponent, StopDragDirective, TooltipDirective, TourStepDirective, TranslatePipe } from '@app/framework';
+import { EditableTitleComponent, StopDragDirective, TooltipDirective, TourStepDirective, TranslatePipe } from '@app/core';
 import { LocalStoreService, SchemaCategory, SchemaDto, SchemasState } from '@app/shared/internal';
 
 const ITEM_HEIGHT = 2.5;

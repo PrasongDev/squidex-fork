@@ -7,7 +7,7 @@
 
 import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { AssetPathItem } from '@app/shared/internal';
 
 @Component({

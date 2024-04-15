@@ -7,7 +7,7 @@
 
 import { AsyncPipe, NgFor, NgIf, SlicePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { StringColorPipe, TooltipDirective } from '@app/framework';
+import { StringColorPipe, TooltipDirective } from '@app/core';
 import { CollaborationService, Profile } from '@app/shared/internal';
 import { UserPicturePipe } from './pipes';
 

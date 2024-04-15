@@ -9,7 +9,7 @@ import { HttpClient, HttpErrorResponse, HttpEventType, HttpResponse } from '@ang
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError, filter, map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, ErrorDto, getLinkUrl, hasAnyLink, HTTP, Metadata, pretifyError, Resource, ResourceLinks, ScriptCompletions, StringHelper, Types, Version, Versioned } from '@app/framework';
+import { ApiUrlConfig, DateTime, ErrorDto, getLinkUrl, hasAnyLink, HTTP, Metadata, pretifyError, Resource, ResourceLinks, ScriptCompletions, StringHelper, Types, Version, Versioned } from '@app/core';
 import { AuthService } from './auth.service';
 import { Query, sanitize } from './query';
 

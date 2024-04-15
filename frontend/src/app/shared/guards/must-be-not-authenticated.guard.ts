@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Router } from '@angular/router';
 import { map, take, tap } from 'rxjs/operators';
-import { UIOptions } from '@app/framework';
+import { UIOptions } from '@app/core';
 import { AuthService } from '../services/auth.service';
 
 export const mustBeNotAuthenticatedGuard = (route: ActivatedRouteSnapshot) => {

@@ -8,7 +8,7 @@
 import { NgIf } from '@angular/common';
 import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, forwardRef, inject, Input, ViewChild } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, UntypedFormControl } from '@angular/forms';
-import { ControlErrorsComponent, ResizedDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ControlErrorsComponent, ResizedDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { ExtendedFormGroup, LocalStoreService, ResourceLoaderService, Settings, StatefulControlComponent, Types, UIOptions, ValidatorsEx } from '@app/shared/internal';
 
 declare const L: any;

@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { KNumberPipe, TranslatePipe } from '@app/framework';
+import { KNumberPipe, TranslatePipe } from '@app/core';
 import { CallsUsageDto } from '@app/shared';
 
 @Component({

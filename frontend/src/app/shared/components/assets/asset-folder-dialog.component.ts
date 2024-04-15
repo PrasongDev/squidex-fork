@@ -8,7 +8,7 @@
 import { AsyncPipe, NgIf } from '@angular/common';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ControlErrorsComponent, FocusOnInitDirective, FormAlertComponent, FormErrorComponent, ModalDialogComponent, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ControlErrorsComponent, FocusOnInitDirective, FormAlertComponent, FormErrorComponent, ModalDialogComponent, TooltipDirective, TranslatePipe } from '@app/core';
 import { AssetFolderDto, AssetsState, RenameAssetFolderForm } from '@app/shared/internal';
 
 @Component({

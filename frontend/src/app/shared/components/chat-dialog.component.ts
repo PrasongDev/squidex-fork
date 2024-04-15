@@ -9,7 +9,7 @@ import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { delay } from 'rxjs/operators';
-import { FocusOnInitDirective, MarkdownDirective, MathHelper, ModalDialogComponent, ResizedDirective, ScrollActiveDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { FocusOnInitDirective, MarkdownDirective, MathHelper, ModalDialogComponent, ResizedDirective, ScrollActiveDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { AppsState, AuthService, StatefulComponent, TranslationsService } from '@app/shared/internal';
 import { UserIdPicturePipe } from './pipes';
 

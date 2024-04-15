@@ -11,7 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MentionConfig, MentionModule } from 'angular-mentions';
 import { BehaviorSubject } from 'rxjs';
-import { MessageBus, ResizedDirective, Subscriptions, TranslatePipe } from '@app/framework';
+import { MessageBus, ResizedDirective, Subscriptions, TranslatePipe } from '@app/core';
 import { AnnotationCreateAfterNavigate, AnnotationsSelectAfterNavigate, AuthService, CommentsState, ContributorsState, UpsertCommentForm } from '@app/shared/internal';
 import { CommentComponent } from './comment.component';
 

@@ -7,7 +7,7 @@
 
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { TagConverter, TagValue } from '@app/framework';
+import { TagConverter, TagValue } from '@app/core';
 import { SchemaDto } from '../services/schemas.service';
 import { SchemasState } from './schemas.state';
 

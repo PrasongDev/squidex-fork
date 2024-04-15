@@ -8,7 +8,7 @@
 import { AsyncPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { LayoutComponent } from '@app/framework';
+import { LayoutComponent } from '@app/core';
 import { HelpService } from '@app/shared/internal';
 import { HelpMarkdownPipe } from './help-markdown.pipe';
 

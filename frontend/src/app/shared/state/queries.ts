@@ -7,7 +7,7 @@
 
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { compareStrings, Types } from '@app/framework';
+import { compareStrings, Types } from '@app/core';
 import { deserializeQuery, equalsQuery, Query } from '../services/query';
 import { UIState } from './ui.state';
 

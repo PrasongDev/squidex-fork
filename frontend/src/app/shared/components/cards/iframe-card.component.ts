@@ -6,7 +6,7 @@
  */
 
 import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, HostListener, Input, ViewChild } from '@angular/core';
-import { ApiUrlConfig, Types } from '@app/framework';
+import { ApiUrlConfig, Types } from '@app/core';
 import { AppDto, AuthService, TeamDto } from '@app/shared/internal';
 
 @Component({

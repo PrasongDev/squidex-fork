@@ -6,7 +6,7 @@
  */
 
 import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, inject, Input, OnDestroy, Renderer2, ViewChild } from '@angular/core';
-import { ResourceLoaderService, TypedSimpleChanges, UIOptions } from '@app/framework';
+import { ResourceLoaderService, TypedSimpleChanges, UIOptions } from '@app/core';
 import { AuthService } from '@app/shared/internal';
 import { TourHintDirective } from './tour-hint.directive';
 

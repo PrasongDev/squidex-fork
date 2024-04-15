@@ -6,7 +6,7 @@
  */
 
 import { Pipe, PipeTransform } from '@angular/core';
-import { Version } from '@app/framework';
+import { Version } from '@app/core';
 import { ApiUrlConfig, AssetDto, AuthService, MathHelper, StringHelper, Types } from '@app/shared/internal';
 
 @Pipe({

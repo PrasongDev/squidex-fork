@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { FullDateTimePipe, LocalizerService, TooltipDirective, TranslatePipe, TypedSimpleChanges } from '@app/framework';
+import { FullDateTimePipe, LocalizerService, TooltipDirective, TranslatePipe, TypedSimpleChanges } from '@app/core';
 import { ScheduleDto } from '@app/shared/internal';
 
 @Component({

@@ -8,7 +8,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiUrlConfig, pretifyError } from '@app/framework';
+import { ApiUrlConfig, pretifyError } from '@app/core';
 
 export type FeatureDto = Readonly<{
     // The name of the feature.

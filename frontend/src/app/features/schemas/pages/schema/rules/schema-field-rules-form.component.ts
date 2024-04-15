@@ -9,7 +9,7 @@ import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EMPTY, Observable, shareReplay } from 'rxjs';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { CodeEditorComponent, ConfigureFieldRulesForm, ConfirmClickDirective, ControlErrorsComponent, FIELD_RULE_ACTIONS, SchemaDto, SchemasService, SchemasState, ScriptCompletions } from '@app/shared';
 
 @Component({

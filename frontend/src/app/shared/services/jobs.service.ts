@@ -9,7 +9,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
-import { ApiUrlConfig, DateTime, hasAnyLink, pretifyError, Resource, ResourceLinks, Types } from '@app/framework';
+import { ApiUrlConfig, DateTime, hasAnyLink, pretifyError, Resource, ResourceLinks, Types } from '@app/core';
 
 export class JobDto {
     public readonly _links: ResourceLinks;

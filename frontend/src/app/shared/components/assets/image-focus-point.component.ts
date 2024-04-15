@@ -7,7 +7,7 @@
 
 import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, Input, OnDestroy, ViewChild } from '@angular/core';
 import { FocusedImage, FocusPicker } from 'image-focus';
-import { TranslatePipe, Types } from '@app/framework';
+import { TranslatePipe, Types } from '@app/core';
 import { AnnotateAssetDto, AssetDto } from '@app/shared/internal';
 
 @Component({

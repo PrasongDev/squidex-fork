@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { ApiUrlConfig } from '@app/framework';
+import { ApiUrlConfig } from '@app/core';
 
 export type UISettingsDto = Readonly<{
     // True, if the user has the permissions to create a new app.

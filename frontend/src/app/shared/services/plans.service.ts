@@ -8,7 +8,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiUrlConfig, HTTP, mapVersioned, pretifyError, Version, Versioned } from '@app/framework';
+import { ApiUrlConfig, HTTP, mapVersioned, pretifyError, Version, Versioned } from '@app/core';
 import { ChangePlanDto, parsePlans, PlanChangedDto, PlansDto } from './shared';
 
 export * from './shared';

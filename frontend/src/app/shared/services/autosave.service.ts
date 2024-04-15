@@ -6,7 +6,7 @@
  */
 
 import { Injectable } from '@angular/core';
-import { LocalStoreService, Version } from '@app/framework';
+import { LocalStoreService, Version } from '@app/core';
 
 export declare type AutoSaveKey = { schemaId: string; schemaVersion: Version; contentId?: string };
 

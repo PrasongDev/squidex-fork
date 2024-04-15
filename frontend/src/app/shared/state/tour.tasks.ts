@@ -7,7 +7,7 @@
 
 import { inject, InjectionToken } from '@angular/core';
 import { filter, Observable, take } from 'rxjs';
-import { MessageBus, StepDefinition, waitForAnchor } from '@app/framework';
+import { MessageBus, StepDefinition, waitForAnchor } from '@app/core';
 import { ClientTourStated, QueryExecuted } from '../utils/messages';
 import { AppsState } from './apps.state';
 import { AssetsState } from './assets.state';

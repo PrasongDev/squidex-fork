@@ -8,7 +8,7 @@
 import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { NgChartsModule } from 'ng2-charts';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { AppDto, CallsUsageDto, ChartHelpers, ChartOptions, UsagesService } from '@app/shared/internal';
 
 @Component({

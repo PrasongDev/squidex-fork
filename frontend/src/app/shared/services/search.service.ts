@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ApiUrlConfig, pretifyError, ResourceLinks } from '@app/framework';
+import { ApiUrlConfig, pretifyError, ResourceLinks } from '@app/core';
 
 export class SearchResultDto {
     public readonly _links: ResourceLinks;

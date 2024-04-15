@@ -6,7 +6,7 @@
  */
 
 import { ValidatorFn, Validators } from '@angular/forms';
-import { DateTime, Types, ValidatorsEx } from '@app/framework';
+import { DateTime, Types, ValidatorsEx } from '@app/core';
 import { ContentDto, ContentReferences, ContentReferencesValue } from '../services/contents.service';
 import { LanguageDto } from '../services/languages.service';
 import { FieldDto, RootFieldDto } from '../services/schemas.service';

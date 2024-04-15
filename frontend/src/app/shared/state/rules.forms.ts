@@ -6,7 +6,7 @@
  */
 
 import { AbstractControl, UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
-import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx } from '@app/framework';
+import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx } from '@app/core';
 import { RuleElementDto, TriggerType } from '../services/rules.service';
 
 export class ActionForm extends Form<any, UntypedFormGroup> {

@@ -7,7 +7,7 @@
 
 import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
-import { ConfirmClickDirective, ExternalLinkDirective, FileDropDirective, FromNowPipe, ImageSourceDirective, ProgressBarComponent, StopClickDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ConfirmClickDirective, ExternalLinkDirective, FileDropDirective, FromNowPipe, ImageSourceDirective, ProgressBarComponent, StopClickDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { AssetDto, AssetUploaderState, DialogService, StatefulComponent, Types, UploadCanceled } from '@app/shared/internal';
 import { UserNameRefPipe, UserPictureRefPipe } from '../pipes';
 import { AssetPreviewUrlPipe, AssetUrlPipe, FileIconPipe } from './pipes';

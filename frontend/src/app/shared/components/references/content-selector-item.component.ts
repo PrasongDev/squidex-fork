@@ -10,7 +10,7 @@
 import { NgFor } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { StopClickDirective } from '@app/framework';
+import { StopClickDirective } from '@app/core';
 import { ContentDto, LanguageDto, META_FIELDS, SchemaDto } from '@app/shared/internal';
 import { ContentListCellDirective } from '../contents/content-list-cell.directive';
 import { ContentListFieldComponent } from '../contents/content-list-field.component';

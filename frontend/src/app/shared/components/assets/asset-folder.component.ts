@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { ConfirmClickDirective, DropdownMenuComponent, ModalDirective, ModalPlacementDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { ConfirmClickDirective, DropdownMenuComponent, ModalDirective, ModalPlacementDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { AssetFolderDto, AssetPathItem, DialogModel, ModalModel, Types } from '@app/shared/internal';
 import { AssetFolderDialogComponent } from './asset-folder-dialog.component';
 

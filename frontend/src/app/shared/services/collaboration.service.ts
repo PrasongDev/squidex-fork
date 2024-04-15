@@ -10,7 +10,7 @@ import { BehaviorSubject, distinctUntilChanged, map, Observable, of, shareReplay
 import { Awareness } from 'y-protocols/awareness';
 import { WebsocketProvider } from 'y-websocket';
 import * as Y from 'yjs';
-import { Types, UIOptions } from '@app/framework';
+import { Types, UIOptions } from '@app/core';
 import { AuthService, Profile } from './auth.service';
 
 type AwarenessState = { user: Profile; [key: string]: any };

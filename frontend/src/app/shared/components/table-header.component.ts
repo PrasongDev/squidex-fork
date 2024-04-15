@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { LanguageDto, Query, SortMode, Types } from '@app/shared/internal';
 
 @Component({

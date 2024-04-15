@@ -8,7 +8,7 @@
 /* eslint-disable object-curly-newline */
 
 import { Injectable } from '@angular/core';
-import '@app/framework/utils/rxjs-extensions';
+import '@app/core/utils/rxjs-extensions';
 import { EMPTY, Observable, of } from 'rxjs';
 import { catchError, finalize, tap } from 'rxjs/operators';
 import { debug, DialogService, getPagingInfo, ListState, shareSubscribed, State } from '@app/shared';

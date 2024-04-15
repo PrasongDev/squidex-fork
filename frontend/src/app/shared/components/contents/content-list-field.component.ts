@@ -8,7 +8,7 @@
 import { NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { UntypedFormGroup } from '@angular/forms';
-import { FromNowPipe, ShortDatePipe, TooltipDirective, TranslatePipe } from '@app/framework';
+import { FromNowPipe, ShortDatePipe, TooltipDirective, TranslatePipe } from '@app/core';
 import { ContentDto, FieldValue, getContentValue, LanguageDto, META_FIELDS, SchemaDto, StatefulComponent, TableField, TableSettings } from '@app/shared/internal';
 import { UserNameRefPipe, UserPictureRefPipe } from '../pipes';
 import { ContentStatusComponent } from './content-status.component';

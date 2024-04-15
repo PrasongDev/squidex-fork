@@ -5,7 +5,7 @@
  * Copyright (c) Squidex UG (haftungsbeschränkt). All rights reserved.
  */
 
-export * from '@app/framework';
+export * from '@app/core';
 export * from './components/cards/shared';
 export * from './interceptors/auth.interceptor';
 export * from './services/app-languages.service';

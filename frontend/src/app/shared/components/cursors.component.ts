@@ -8,7 +8,7 @@
 import { AsyncPipe, NgFor } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { map } from 'rxjs';
-import { StringColorPipe } from '@app/framework';
+import { StringColorPipe } from '@app/core';
 import { CollaborationService, Profile } from '@app/shared/internal';
 
 type CursorState = { user: Profile; cursor: { x: number; y: number } };

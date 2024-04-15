@@ -7,7 +7,7 @@
 
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownComponent, FormHintComponent } from '@app/framework';
+import { DropdownComponent, FormHintComponent } from '@app/core';
 import { FilterableField, QueryModel } from '@app/shared/internal';
 
 @Component({

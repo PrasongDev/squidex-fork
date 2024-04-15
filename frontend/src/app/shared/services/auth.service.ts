@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { Log, User, UserManager, WebStorageStateStore } from 'oidc-client-ts';
 import { Observable, ReplaySubject } from 'rxjs';
-import { ApiUrlConfig } from '@app/framework';
+import { ApiUrlConfig } from '@app/core';
 
 export class Profile {
     public get id() {

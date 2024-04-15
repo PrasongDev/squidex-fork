@@ -7,7 +7,7 @@
 
 import { catchError, EMPTY, of, onErrorResumeNextWith, throwError } from 'rxjs';
 import { IMock, It, Mock, Times } from 'typemoq';
-import { ErrorDto } from '@app/framework';
+import { ErrorDto } from '@app/core';
 import { ContributorDto, ContributorsPayload, ContributorsService, ContributorsState, DialogService, versioned } from '@app/shared/internal';
 import { createContributors } from '../services/contributors.service.spec';
 import { TestValues } from './_test-helpers';

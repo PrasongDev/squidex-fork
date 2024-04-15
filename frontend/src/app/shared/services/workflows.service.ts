@@ -8,7 +8,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiUrlConfig, compareStrings, hasAnyLink, HTTP, mapVersioned, pretifyError, Resource, ResourceLinks, StringHelper, Version, Versioned } from '@app/framework';
+import { ApiUrlConfig, compareStrings, hasAnyLink, HTTP, mapVersioned, pretifyError, Resource, ResourceLinks, StringHelper, Version, Versioned } from '@app/core';
 
 export class WorkflowDto {
     public readonly _links: ResourceLinks;

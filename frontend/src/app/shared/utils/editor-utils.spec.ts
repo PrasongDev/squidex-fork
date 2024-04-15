@@ -7,7 +7,7 @@
 
 /* eslint-disable no-template-curly-in-string */
 
-import { Version } from '@app/framework';
+import { Version } from '@app/core';
 import { AppSettingsDto } from '../services/apps.service';
 import { computeEditorUrl } from './editor-utils';
 

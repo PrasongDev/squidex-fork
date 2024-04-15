@@ -7,7 +7,7 @@
 
 import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { LongHoverDirective, ModalDirective, ModalModel, ModalPlacementDirective, StatefulComponent, StopClickDirective, Subscriptions, TooltipDirective, TypedSimpleChanges } from '@app/framework';
+import { LongHoverDirective, ModalDirective, ModalModel, ModalPlacementDirective, StatefulComponent, StopClickDirective, Subscriptions, TooltipDirective, TypedSimpleChanges } from '@app/core';
 import { HtmlValue, TableField, TableSettings, Types } from '@app/shared/internal';
 
 interface State {

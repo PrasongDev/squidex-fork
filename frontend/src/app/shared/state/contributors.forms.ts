@@ -7,7 +7,7 @@
 
 import { UntypedFormControl, Validators } from '@angular/forms';
 import { debounceTime, map, shareReplay } from 'rxjs/operators';
-import { ExtendedFormGroup, Form, hasNoValue$, Types, value$ } from '@app/framework';
+import { ExtendedFormGroup, Form, hasNoValue$, Types, value$ } from '@app/core';
 import { AssignContributorDto } from '../services/shared';
 import { UserDto } from '../services/users.service';
 

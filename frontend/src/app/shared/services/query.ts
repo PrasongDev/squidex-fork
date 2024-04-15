@@ -5,7 +5,7 @@
  * Copyright (c) Squidex UG (haftungsbeschränkt). All rights reserved.
  */
 
-import { QueryParams, RouteSynchronizer, Types } from '@app/framework';
+import { QueryParams, RouteSynchronizer, Types } from '@app/core';
 
 export type FilterSchemaType =
     'Any' |

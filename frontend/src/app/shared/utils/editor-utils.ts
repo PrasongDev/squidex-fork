@@ -5,7 +5,7 @@
  * Copyright (c) Squidex UG (haftungsbeschränkt). All rights reserved.
  */
 
-import { interpolate } from '@app/framework';
+import { interpolate } from '@app/core';
 import { AppSettingsDto } from '../services/apps.service';
 
 export function computeEditorUrl(url?: string | null, settings?: AppSettingsDto | null) {

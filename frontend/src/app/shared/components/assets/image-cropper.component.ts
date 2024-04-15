@@ -7,7 +7,7 @@
 
 import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, Input, OnDestroy, ViewChild } from '@angular/core';
 import Cropper from 'cropperjs';
-import { TooltipDirective, Types } from '@app/framework';
+import { TooltipDirective, Types } from '@app/core';
 
 @Component({
     standalone: true,

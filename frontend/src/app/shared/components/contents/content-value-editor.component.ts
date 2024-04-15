@@ -8,7 +8,7 @@
 import { NgFor, NgSwitch, NgSwitchCase } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { FormsModule, ReactiveFormsModule, UntypedFormGroup } from '@angular/forms';
-import { IndeterminateValueDirective, StarsComponent, ToggleComponent, TransformInputDirective } from '@app/framework';
+import { IndeterminateValueDirective, StarsComponent, ToggleComponent, TransformInputDirective } from '@app/core';
 import { FieldDto, MathHelper } from '@app/shared/internal';
 
 @Component({

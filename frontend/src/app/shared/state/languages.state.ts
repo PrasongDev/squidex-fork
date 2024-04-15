@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
 import { finalize, map, shareReplay, tap } from 'rxjs/operators';
-import { debug, DialogService, LoadingState, shareMapSubscribed, shareSubscribed, State, Version } from '@app/framework';
+import { debug, DialogService, LoadingState, shareMapSubscribed, shareSubscribed, State, Version } from '@app/core';
 import { AppLanguageDto, AppLanguagesPayload, AppLanguagesService, UpdateAppLanguageDto } from '../services/app-languages.service';
 import { LanguageDto, LanguagesService } from '../services/languages.service';
 import { AppsState } from './apps.state';

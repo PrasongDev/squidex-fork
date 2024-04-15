@@ -9,7 +9,7 @@ import { AsyncPipe } from '@angular/common';
 import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, forwardRef, Input, OnDestroy, Output, ViewChild } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { BehaviorSubject, catchError, of, switchMap } from 'rxjs';
-import { ModalDirective, TypedSimpleChanges } from '@app/framework';
+import { ModalDirective, TypedSimpleChanges } from '@app/core';
 import { ApiUrlConfig, AppsState, AssetDto, AssetsService, AssetUploaderState, ContentDto, DialogModel, getContentValue, LanguageDto, ResourceLoaderService, StatefulControlComponent, Types } from '@app/shared/internal';
 import { AssetDialogComponent } from '../assets/asset-dialog.component';
 import { AssetSelectorComponent } from '../assets/asset-selector.component';

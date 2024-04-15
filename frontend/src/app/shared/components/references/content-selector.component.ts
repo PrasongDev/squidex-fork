@@ -10,7 +10,7 @@ import { booleanAttribute, Component, EventEmitter, forwardRef, Input, numberAtt
 import { FormsModule } from '@angular/forms';
 import { BehaviorSubject, of } from 'rxjs';
 import { distinctUntilChanged, map, switchMap } from 'rxjs/operators';
-import { LanguageSelectorComponent, ListViewComponent, ModalDialogComponent, PagerComponent, SyncWidthDirective, TooltipDirective, TranslatePipe } from '@app/framework';
+import { LanguageSelectorComponent, ListViewComponent, ModalDialogComponent, PagerComponent, SyncWidthDirective, TooltipDirective, TranslatePipe } from '@app/core';
 import { ApiUrlConfig, AppsState, ComponentContentsState, ContentDto, LanguageDto, META_FIELDS, Query, SchemaDto, SchemasService, SchemasState, Subscriptions } from '@app/shared/internal';
 import { ContentListCellDirective, ContentListWidthDirective } from '../contents/content-list-cell.directive';
 import { ContentListHeaderComponent } from '../contents/content-list-header.component';

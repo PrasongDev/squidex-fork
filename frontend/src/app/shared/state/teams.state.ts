@@ -8,7 +8,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
-import { debug, DialogService, shareSubscribed, State } from '@app/framework';
+import { debug, DialogService, shareSubscribed, State } from '@app/core';
 import { CreateTeamDto, TeamDto, TeamsService, UpdateTeamDto } from '@app/shared/internal';
 
 interface Snapshot {

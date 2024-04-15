@@ -7,7 +7,7 @@
 
 import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, numberAttribute, Output } from '@angular/core';
-import { TranslatePipe } from '@app/framework';
+import { TranslatePipe } from '@app/core';
 import { FilterLogical, FilterNode, LanguageDto, QueryModel, StatusInfo } from '@app/shared/internal';
 import { FilterNodeComponent } from './filter-node.component';
 

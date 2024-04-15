@@ -7,7 +7,7 @@
 
 import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-import { StopClickDirective, TranslatePipe } from '@app/framework';
+import { StopClickDirective, TranslatePipe } from '@app/core';
 import { equalsQuery, Query, SavedQuery } from '@app/shared/internal';
 
 @Component({

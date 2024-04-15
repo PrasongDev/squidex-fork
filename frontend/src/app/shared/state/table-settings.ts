@@ -6,7 +6,7 @@
  */
 
 import { map, take } from 'rxjs/operators';
-import { State, Types } from '@app/framework';
+import { State, Types } from '@app/core';
 import { META_FIELDS, SchemaDto, TableField } from '../services/schemas.service';
 import { UIState } from './ui.state';
 

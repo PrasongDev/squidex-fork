@@ -11,7 +11,7 @@ import { inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { EMPTY, from, Observable, throwError } from 'rxjs';
 import { catchError, switchMap, take } from 'rxjs/operators';
-import { ApiUrlConfig, ErrorDto } from '@app/framework';
+import { ApiUrlConfig, ErrorDto } from '@app/core';
 import { AuthService, Profile } from '../services/auth.service';
 
 type InternalFunction = (user: Profile | null, renew: boolean) => Observable<HttpEvent<any>>;

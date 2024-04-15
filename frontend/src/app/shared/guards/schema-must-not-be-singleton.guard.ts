@@ -8,7 +8,7 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Router, RouterStateSnapshot } from '@angular/router';
 import { map, take, tap } from 'rxjs/operators';
-import { defined } from '@app/framework';
+import { defined } from '@app/core';
 import { SchemasState } from '../state/schemas.state';
 
 export const schemaMustNotBeSingletonGuard = (forExtension: boolean) => {

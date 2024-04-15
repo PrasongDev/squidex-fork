@@ -7,7 +7,7 @@
 
 import { booleanAttribute, ChangeDetectionStrategy, Component, forwardRef, Input } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { ModalDirective, StopClickDirective } from '@app/framework';
+import { ModalDirective, StopClickDirective } from '@app/core';
 import { AppsState, ContentDto, ContentsService, DialogModel, getContentValue, LanguageDto, LocalizerService, StatefulControlComponent, TypedSimpleChanges, Types } from '@app/shared/internal';
 import { ContentSelectorComponent } from './content-selector.component';
 

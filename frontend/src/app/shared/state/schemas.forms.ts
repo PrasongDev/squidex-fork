@@ -9,7 +9,7 @@
 
 import { AbstractControl, UntypedFormControl, Validators } from '@angular/forms';
 import { map } from 'rxjs/operators';
-import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx, value$ } from '@app/framework';
+import { ExtendedFormGroup, Form, TemplatedFormArray, ValidatorsEx, value$ } from '@app/core';
 import { AddFieldDto, CreateSchemaDto, FieldRule, SchemaDto, SchemaPropertiesDto, SynchronizeSchemaDto, UpdateSchemaDto } from '../services/schemas.service';
 import { createProperties, FieldPropertiesDto, FieldPropertiesVisitor } from '../services/schemas.types';
 

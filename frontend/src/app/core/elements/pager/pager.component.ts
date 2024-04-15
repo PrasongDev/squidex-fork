@@ -8,9 +8,9 @@
 import { NgFor, NgIf } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PagingInfo } from '../state';
-import { TooltipDirective } from '../directive/modals/tooltip.directive';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { PagingInfo } from '../../state';
+import { TooltipDirective } from '../../directive/modals/tooltip.directive';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 
 export const PAGE_SIZES: ReadonlyArray<number> = [10, 20, 30, 50];
 

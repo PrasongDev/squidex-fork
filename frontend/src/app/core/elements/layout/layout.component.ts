@@ -9,10 +9,10 @@ import { AsyncPipe, NgIf, NgTemplateOutlet } from '@angular/common';
 import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChild, ElementRef, Input, numberAttribute, OnDestroy, OnInit, Optional, Renderer2, ViewChild } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, QueryParamsHandling, Router, RouterLink } from '@angular/router';
 import { concat, defer, filter, map, of } from 'rxjs';
-import { LayoutContainerDirective } from '../directive/common/layout-container.directive';
-import { TranslatePipe } from '../pipes/translate.pipe';
-import { StopClickDirective } from '../directive/common/stop-click.directive';
-import { SidebarMenuDirective } from '../directive/common/template.directive';
+import { LayoutContainerDirective } from '../../directive/common/layout-container.directive';
+import { TranslatePipe } from '../../pipes/translate.pipe';
+import { StopClickDirective } from '../../directive/common/stop-click.directive';
+import { SidebarMenuDirective } from '../../directive/common/template.directive';
 
 @Component({
     standalone: true,

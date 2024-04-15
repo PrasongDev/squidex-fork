@@ -10,8 +10,8 @@ import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, El
 import { FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, UntypedFormControl } from '@angular/forms';
 import { distinctUntilChanged, map, tap } from 'rxjs/operators';
 import { getTagValues, Keys, ModalModel, StatefulControlComponent, StringConverter, Subscriptions, TagValue, TextMeasurer, TypedSimpleChanges, Types } from '@app/core/internal';
-import { DropdownMenuComponent } from '../../dropdown-menu.component';
-import { LoaderComponent } from '../../loader.component';
+import { DropdownMenuComponent } from '../../dropdown-menu/dropdown-menu.component';
+import { LoaderComponent } from '../../loader/loader.component';
 import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
 import { ModalDirective } from '../../../directive/modals/modal.directive';
 import { TooltipDirective } from '../../../directive/modals/tooltip.directive';

@@ -10,8 +10,8 @@ import { AfterContentInit, booleanAttribute, ChangeDetectionStrategy, Component,
 import { FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, UntypedFormControl } from '@angular/forms';
 import { map } from 'rxjs/operators';
 import { FloatingPlacement, Keys, ModalModel, StatefulControlComponent, Subscriptions, TypedSimpleChanges, Types } from '@app/core/internal';
-import { DropdownMenuComponent } from '../../dropdown-menu.component';
-import { LoaderComponent } from '../../loader.component';
+import { DropdownMenuComponent } from '../../dropdown-menu/dropdown-menu.component';
+import { LoaderComponent } from '../../loader/loader.component';
 import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
 import { ModalDirective } from '../../../directive/modals/modal.directive';
 import { TranslatePipe } from '../../../pipes/translate.pipe';

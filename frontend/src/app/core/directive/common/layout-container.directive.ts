@@ -8,7 +8,7 @@
 /* eslint-disable import/no-cycle */
 
 import { AfterViewInit, Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
-import { LayoutComponent } from '../../angular/layout.component';
+import { LayoutComponent } from '../../elements/layout/layout.component';
 
 @Directive({
     selector: '[sqxLayoutContainer]',

@@ -8,7 +8,7 @@
 import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ToolbarService } from '@app/core/internal';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 
 @Component({
     standalone: true,

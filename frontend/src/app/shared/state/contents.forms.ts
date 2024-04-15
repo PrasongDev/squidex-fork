@@ -9,7 +9,7 @@ import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms
 import { BehaviorSubject, Observable } from 'rxjs';
 import { distinctUntilChanged, map } from 'rxjs/operators';
 import { debounceTimeSafe, ExtendedFormGroup, Form, FormArrayTemplate, TemplatedFormArray, Types, value$ } from '@app/core';
-import { FormGroupTemplate, TemplatedFormGroup } from '@app/core/angular/forms/templated-form-group';
+import { FormGroupTemplate, TemplatedFormGroup } from '@app/core/elements/forms/templated-form-group';
 import { AppLanguageDto } from '../services/app-languages.service';
 import { LanguageDto } from '../services/languages.service';
 import { FieldDto, RootFieldDto, SchemaDto, TableField } from '../services/schemas.service';

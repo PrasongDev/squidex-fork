@@ -8,9 +8,9 @@
 import { NgIf, NgTemplateOutlet } from '@angular/common';
 import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, HostBinding, Input, Renderer2, ViewChild } from '@angular/core';
 import { StatefulComponent } from '@app/core/internal';
-import { CompensateScrollbarDirective } from '../directive/common/compensate-scrollbar.directive';
-import { LoaderComponent } from './loader.component';
-import { SyncScollingDirective } from '../directive/common/sync-scrolling.directive';
+import { CompensateScrollbarDirective } from '../../directive/common/compensate-scrollbar.directive';
+import { LoaderComponent } from '../loader/loader.component';
+import { SyncScollingDirective } from '../../directive/common/sync-scrolling.directive';
 
 interface State {
     // True when loading.

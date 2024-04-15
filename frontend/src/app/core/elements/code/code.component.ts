@@ -6,7 +6,7 @@
  */
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MathHelper } from '../internal';
+import { MathHelper } from '../../internal';
 
 @Component({
     standalone: true,

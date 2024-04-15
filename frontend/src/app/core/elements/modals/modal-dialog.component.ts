@@ -8,7 +8,7 @@
 import { NgIf } from '@angular/common';
 import { AfterViewInit, booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, Output, Renderer2, ViewChild } from '@angular/core';
 import { fadeAnimation } from '@app/core/internal';
-import { ShortcutComponent } from '../shortcut.component';
+import { ShortcutComponent } from '../shortcut/shortcut.component';
 import { TourStepDirective } from '../../directive/modals/tour-step.directive';
 
 @Component({

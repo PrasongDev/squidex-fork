@@ -6,11 +6,13 @@
  */
 
 export * from './animations/animations';
-export * from './angular/drag-helper';
+export * from './drag-helper';
 export * from './routers/router-utils';
-export * from './angular/stateful.component';
-export * from './angular/subscriptions';
+export * from './elements/stateful/stateful.component';
+export * from './subscriptions';
+
 export * from './configurations';
+
 export * from './services/analytics.service';
 export * from './services/clipboard.service';
 export * from './services/dialog.service';
@@ -25,6 +27,7 @@ export * from './services/shortcut.service';
 export * from './services/temp.service';
 export * from './services/title.service';
 export * from './services/toolbar.service';
+
 export * from './utils/angular';
 export * from './utils/array-helper';
 export * from './utils/cookies';

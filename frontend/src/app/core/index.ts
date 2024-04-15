@@ -8,58 +8,67 @@
 
 import './utils/array-extensions';
 
-export * from './angular/avatar.component';
-export * from './angular/code.component';
-export * from './angular/dropdown-menu.component';
-export * from './angular/forms/control-errors-messages.component';
-export * from './angular/forms/control-errors.component';
-export * from './angular/forms/editable-title.component';
-export * from './angular/forms/editors/autocomplete.component';
-export * from './angular/forms/editors/checkbox-group.component';
-export * from './angular/forms/editors/code-editor.component';
-export * from './angular/forms/editors/color-picker.component';
-export * from './angular/forms/editors/date-time-editor.component';
-export * from './angular/forms/editors/dropdown.component';
-export * from './angular/forms/editors/localized-input.component';
-export * from './angular/forms/editors/radio-group.component';
-export * from './angular/forms/editors/stars.component';
-export * from './angular/forms/editors/tag-editor.component';
-export * from './angular/forms/editors/toggle.component';
-export * from './angular/forms/extended-form-array';
-export * from './angular/forms/extended-form-group';
-export * from './angular/forms/form-alert.component';
-export * from './angular/forms/form-error.component';
-export * from './angular/forms/form-hint.component';
-export * from './angular/forms/forms-helper';
-export * from './angular/forms/model';
-export * from './angular/forms/progress-bar.component';
-export * from './angular/forms/templated-form-array';
-export * from './angular/forms/validators';
-export * from './angular/global-error-handler';
+
+export * from './global-error-handler';
 export * from './http/caching.interceptor';
 export * from './http/http-extensions';
 export * from './http/loading.interceptor';
-export * from './angular/language-selector.component';
-export * from './angular/layout.component';
-export * from './angular/list-view.component';
-export * from './angular/loader.component';
-
-export * from './angular/modals/dialog-renderer.component';
-export * from './angular/modals/modal-dialog.component';
-export * from './angular/modals/root-view.component';
-export * from './angular/modals/tour-template.component';
-export * from './angular/modals/tour.service';
-export * from './angular/pager.component';
 export * from './routers/can-deactivate.guard';
 export * from './routers/parent-link.directive';
 export * from './routers/router-2-state';
-export * from './angular/shortcut.component';
-export * from './angular/status-icon.component';
-export * from './angular/title.component';
-export * from './angular/toolbar.component';
-export * from './angular/video-player.component';
+
 export * from './internal';
 export * from './state';
+
+
+/* ============================== ELEMENTS ============================== */
+export * from './elements/avatar/avatar.component';
+export * from './elements/code/code.component';
+export * from './elements/dropdown-menu/dropdown-menu.component';
+export * from './elements/forms/control-errors-messages.component';
+
+export * from './elements/forms/control-errors.component';
+export * from './elements/forms/editable-title.component';
+export * from './elements/forms/editors/autocomplete.component';
+export * from './elements/forms/editors/checkbox-group.component';
+export * from './elements/forms/editors/code-editor.component';
+export * from './elements/forms/editors/color-picker.component';
+export * from './elements/forms/editors/date-time-editor.component';
+export * from './elements/forms/editors/dropdown.component';
+export * from './elements/forms/editors/localized-input.component';
+export * from './elements/forms/editors/radio-group.component';
+export * from './elements/forms/editors/stars.component';
+export * from './elements/forms/editors/tag-editor.component';
+export * from './elements/forms/editors/toggle.component';
+export * from './elements/forms/extended-form-array';
+export * from './elements/forms/extended-form-group';
+export * from './elements/forms/form-alert.component';
+export * from './elements/forms/form-error.component';
+export * from './elements/forms/form-hint.component';
+export * from './elements/forms/forms-helper';
+export * from './elements/forms/model';
+export * from './elements/forms/progress-bar.component';
+export * from './elements/forms/templated-form-array';
+export * from './elements/forms/validators';
+
+export * from './elements/language-selector/language-selector.component';
+export * from './elements/layout/layout.component';
+export * from './elements/list-view/list-view.component';
+export * from './elements/loader/loader.component';
+
+export * from './elements/modals/dialog-renderer.component';
+export * from './elements/modals/modal-dialog.component';
+export * from './elements/modals/root-view.component';
+export * from './elements/modals/tour-template.component';
+export * from './elements/modals/tour.service';
+
+export * from './elements/pager/pager.component';
+export * from './elements/shortcut/shortcut.component';
+export * from './elements/status-icon/status-icon.component';
+export * from './elements/title/title.component';
+export * from './elements/toolbar/toolbar.component';
+export * from './elements/video-player/video-player.component';
+
 
 /* ============================== PIPE ============================== */
 export * from './pipes/colors.pipes';
@@ -72,6 +81,7 @@ export * from './pipes/numbers.pipes';
 export * from './pipes/strings.pipes';
 export * from './pipes/safe-html.pipe';
 export * from './pipes/translate.pipe';
+
 
 /* ============================== DIRECTIVE ============================== */
 export * from './directive/common/compensate-scrollbar.directive';

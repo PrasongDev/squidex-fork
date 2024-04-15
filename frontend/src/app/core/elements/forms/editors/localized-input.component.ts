@@ -9,7 +9,7 @@ import { NgSwitch, NgSwitchCase } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, forwardRef, Input } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { ModalModel, StatefulControlComponent, Types } from '@app/core/internal';
-import { Language, LanguageSelectorComponent } from '../../language-selector.component';
+import { Language, LanguageSelectorComponent } from '../../language-selector/language-selector.component';
 import { IndeterminateValueDirective } from '../../../directive/forms/indeterminate-value.directive';
 import { DateTimeEditorComponent } from './date-time-editor.component';
 import { TagEditorComponent } from './tag-editor.component';

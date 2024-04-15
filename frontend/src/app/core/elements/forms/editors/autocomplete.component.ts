@@ -11,8 +11,8 @@ import { FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, UntypedFormControl
 import { merge, Observable, of, Subject } from 'rxjs';
 import { catchError, debounceTime, finalize, map, switchMap, tap } from 'rxjs/operators';
 import { FloatingPlacement, Keys, ModalModel, StatefulControlComponent, Subscriptions, Types } from '@app/core/internal';
-import { DropdownMenuComponent } from '../../dropdown-menu.component';
-import { LoaderComponent } from '../../loader.component';
+import { DropdownMenuComponent } from '../../dropdown-menu/dropdown-menu.component';
+import { LoaderComponent } from '../../loader/loader.component';
 import { ModalPlacementDirective } from '../../../directive/modals/modal-placement.directive';
 import { ModalDirective } from '../../../directive/modals/modal.directive';
 import { ScrollActiveDirective } from '../../../directive/common/scroll-active.directive';

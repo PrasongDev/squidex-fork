@@ -7,7 +7,7 @@
 
 import { Directive, ElementRef, HostListener, Input, OnDestroy, OnInit } from '@angular/core';
 import { TourAnchorDirective } from 'ngx-ui-tour-core';
-import { StepDefinition, TourService } from '../../angular/modals/tour.service';
+import { StepDefinition, TourService } from '../../elements/modals/tour.service';
 
 @Directive({
     selector: '[sqxTourStep]',
